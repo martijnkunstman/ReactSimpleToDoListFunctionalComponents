@@ -7,8 +7,9 @@ export default function App() {
     { id: 2, description: 'ik moet tandarts bellen', done: false },
     { id: 3, description: 'ik moet afwassen', done: false },
     { id: 4, description: 'ik moet stofzuigen', done: true },
+    { id: 5, description: 'ik moet stofzuigen', done: true },
   ]);
-  const [counter, setCounter] = useState(5);
+  const [counter, setCounter] = useState(6);
   let textInput = React.createRef();
   let doItem = (id) => {
     let itemsCopy = [...items];
